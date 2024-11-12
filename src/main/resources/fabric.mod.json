@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "",
+  "authors": [
+    "Gugle"
+  ],
+  "contact": {
+    "website": "https://template.anvilcraft.dev/",
+    "repo": "https://github.com/Anvil-Dev/PreprocessTemplate"
+  },
+  "license": "MIT",
+  "icon": "assets/template/icon.png",
+  "accessWidener": "template.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "template.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_support}"
+  }
+}

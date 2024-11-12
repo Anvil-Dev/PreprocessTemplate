@@ -1,0 +1,12 @@
+plugins {
+    id "fabric-loom" version "1.7-SNAPSHOT" apply false
+    id "maven-publish"
+    id "com.replaymod.preprocess" version "88169fcbc9"
+}
+
+preprocess {
+    def mc1200 = createNode("1.20", 1_20_00, "official")
+    def mc1210 = createNode("1.21", 1_21_00, "official")
+
+    mc1200.link(mc1210, null)
+}
